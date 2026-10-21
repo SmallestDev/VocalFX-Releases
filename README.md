@@ -1,8 +1,10 @@
 # VocalFX
 
 Releases of **VocalFX**, a real-time vocal effects app for Windows 10/11. Sing into your microphone and add
-reverb, echo, EQ, compression and a safety limiter live, hear yourself on headphones with low latency, and send
-the processed voice to Discord, OBS or game voice chat through a virtual audio cable.
+reverb, echo, EQ, compression, voice style (pitch and voice weight), double tracking and harmony live, hear
+yourself on headphones with low latency, and send the processed voice to Discord, OBS or game voice chat through
+a virtual audio cable. Music or a YouTube video from an app you choose can be sent along with your voice.
+Basic and advanced modes, Korean and English.
 
 ## Download
 Open the [latest release](../../releases/latest) and download `VocalFX-windows-<version>.zip`.
@@ -31,6 +33,7 @@ next launch. You can turn this off in **Settings → Updates**.
 2. In VocalFX choose your microphone, your headphones (monitor output) and `CABLE Input (VB-Audio Virtual Cable)` (virtual mic output), pick the **Reference Live Vocal** preset and press **Start**.
 3. In Discord → Voice & Video, set the input device to `CABLE Output (VB-Audio Virtual Cable)` and turn off Noise Suppression, Echo Cancellation and Automatic Gain Control, otherwise Discord removes the reverb and echo.
 4. In OBS add an *Audio Input Capture* source with `CABLE Output (VB-Audio Virtual Cable)`.
+5. Optional: under **Send app audio** pick the app playing music (for example the browser with YouTube) so Discord listeners hear it too. Discord's and VocalFX's own audio are never sent (needs Windows 11 or Windows 10 build 20348+).
 
 ## Notes
 - Use headphones for monitoring: speakers feed your voice back into the microphone. Monitoring always starts off.
