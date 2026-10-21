@@ -10,10 +10,10 @@ Open the [latest release](../../releases/latest) and download `VocalFX-windows-<
 ## Updates
 The app includes an automatic update system.
 
-When a new version is released, the app checks for updates after it starts (and every 6 hours), downloads the
-new version in the background and verifies its checksum. The update is applied the next time you open VocalFX
-(or right away with **Restart now**), in the same folder, so your shortcuts and taskbar pin keep working.
-You can turn this off in **Settings → Updates**.
+Every time you open VocalFX it checks this repository for a new version. If there is one, it downloads it on
+the start screen, verifies its checksum, installs it in the same folder and restarts into the new version, so your
+shortcuts and taskbar pin keep working. If audio is already running the update waits for **Restart now** or the
+next launch. You can turn this off in **Settings → Updates**.
 
 `VocalFX-update-<version>.zip` is used by the automatic updater. You don't need to download it.
 
