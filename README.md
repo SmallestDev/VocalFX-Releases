@@ -1,7 +1,7 @@
 # VocalFX
 
 Releases of **VocalFX**, a real-time vocal effects app for Windows 10/11. Sing into your microphone and add
-AI noise removal, reverb, echo, EQ, compression, voice style (pitch, voice weight and auto-tune), double tracking and harmony live, hear
+Krisp-class AI noise removal (DeepFilterNet 3), reverb, echo, EQ, compression, voice style (pitch, voice weight and auto-tune), double tracking and harmony live, hear
 yourself on headphones with low latency, and send the processed voice to Discord, OBS or game voice chat through
 a virtual audio cable. Music or a YouTube video from an app you choose can be sent along with your voice.
 Basic and advanced modes, Korean and English. Closing the window keeps VocalFX running in the system tray.
