@@ -5,6 +5,7 @@ AI noise removal, reverb, echo, EQ, compression, voice style (pitch, voice weigh
 yourself on headphones with low latency, and send the processed voice to Discord, OBS or game voice chat through
 a virtual audio cable. Music or a YouTube video from an app you choose can be sent along with your voice.
 Basic and advanced modes, Korean and English. Closing the window keeps VocalFX running in the system tray.
+PC sound removal cancels music, videos and Discord voices that leak from your headphones or speakers into the mic.
 
 ## Download
 Open the [latest release](../../releases/latest) and download `VocalFX-windows-<version>.zip`.
