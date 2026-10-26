@@ -8,7 +8,8 @@ Basic and advanced modes, Korean and English. Closing the window keeps VocalFX r
 PC sound removal cancels music, videos and Discord voices that leak from your headphones or speakers into the mic.
 
 ## Download
-Open the [latest release](../../releases/latest) and download `VocalFX-windows-<version>.zip`.
+Open the [latest release](../../releases/latest) and download **`VocalFX-Setup-<version>.exe`** (installer).
+`VocalFX-windows-<version>.zip` is the portable version.
 
 ## Updates
 The app includes an automatic update system.
@@ -21,16 +22,16 @@ next launch. You can turn this off in **Settings → Updates**.
 `VocalFX-update-<version>.zip` is used by the automatic updater. You don't need to download it.
 
 ## Installation
-1. Download `VocalFX-windows-<version>.zip`
-2. Extract it to a folder you can write to (for example `Documents\VocalFX` or `D:\Apps`), not `Program Files`
-3. Run `VocalFX\VocalFX.exe`
+1. Download and run `VocalFX-Setup-<version>.exe`. It installs for your user only (no administrator rights), adds Start menu and desktop shortcuts and an uninstaller.
+2. Keep **Install VB-CABLE** checked if you want to use VocalFX as a microphone in Discord / OBS. The installer downloads VB-Audio's official package, checks its signature and opens VB-Audio's own setup: click **Install Driver**, confirm the administrator prompt, and restart your PC once afterwards. (VB-CABLE is donationware by VB-Audio · www.vb-cable.com — donations are welcome.)
+3. No Visual C++ Redistributable is needed.
 
-> Windows may show "Windows protected your PC" because the app isn't signed. Choose **More info** → **Run anyway**.
+> Windows may show "Windows protected your PC" because the installer isn't signed. Choose **More info** → **Run anyway**.
 
-> Do not run the app directly inside the ZIP file. Extract it first.
+Portable: extract `VocalFX-windows-<version>.zip` to a folder you can write to (not `Program Files`) and run `VocalFX\VocalFX.exe`.
 
 ### Using it in Discord / OBS
-1. Install a virtual audio cable once, for example [VB-CABLE](https://vb-audio.com/Cable/) (donationware by VB-Audio; not bundled with VocalFX). Reboot after installing.
+1. Install a virtual audio cable once: the installer's VB-CABLE option, or [VB-CABLE](https://vb-audio.com/Cable/) by hand (donationware by VB-Audio). Reboot after installing.
 2. In VocalFX choose your microphone, your headphones (monitor output) and `CABLE Input (VB-Audio Virtual Cable)` (virtual mic output), pick the **Reference Live Vocal** preset and press **Start**.
 3. In Discord → Voice & Video, set the input device to `CABLE Output (VB-Audio Virtual Cable)` and turn off Noise Suppression, Echo Cancellation and Automatic Gain Control, otherwise Discord removes the reverb and echo.
 4. In OBS add an *Audio Input Capture* source with `CABLE Output (VB-Audio Virtual Cable)`.
